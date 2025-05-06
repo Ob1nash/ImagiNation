@@ -8,13 +8,13 @@ const Footer = () => {
 
       {/* Copyright Text */}
       <p className="flex-1 border-t border-gray-500  md:border-l md:border-t-0 md:pl-4 text-sm text-gray-700 mt-6 md:mt-0 md:ml-4">
-        Copyright @Anmol Sah | All rights reserved.
+        Copyright @Parijat Bhattacharjee | All rights reserved.
       </p>
 
       {/* Social Media Icons */}
       <div className="flex gap-6 mt-6 md:mt-0">
         <a
-          href="https://www.linkedin.com/in/anmol-sah-551083238/"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
           className="transition-colors duration-300 hover:text-blue-600"
@@ -22,7 +22,7 @@ const Footer = () => {
           <i className="fab fa-linkedin-in text-2xl"></i>
         </a>
         <a
-          href="https://github.com/anmolsah"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
           className="transition-colors duration-300 hover:text-gray-600"
