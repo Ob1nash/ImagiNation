@@ -1,10 +1,12 @@
+import dotenv from 'dotenv';
+
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
 import userRouter from "./routes/userRoutes.js";
 import connectDB from "./configs/mongodb.js";
 import imageRouter from "./routes/imageRoutes.js";
-
+dotenv.config();
 // App Config
 const PORT = process.env.PORT || 4000;
 const FRONTEND_URL = process.env.FRONTEND_URL;

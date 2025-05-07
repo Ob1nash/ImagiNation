@@ -8,13 +8,13 @@ const Footer = () => {
 
       {/* Copyright Text */}
       <p className="flex-1 border-t border-gray-500  md:border-l md:border-t-0 md:pl-4 text-sm text-gray-700 mt-6 md:mt-0 md:ml-4">
-        Copyright @Parijat Bhattacharjee | All rights reserved.
+        Copyright @Abinash Kalita | All rights reserved.
       </p>
 
       {/* Social Media Icons */}
       <div className="flex gap-6 mt-6 md:mt-0">
         <a
-          href=""
+          href="https://www.linkedin.com/in/abinash-kalita-024624220/"
           target="_blank"
           rel="noopener noreferrer"
           className="transition-colors duration-300 hover:text-blue-600"
@@ -22,7 +22,7 @@ const Footer = () => {
           <i className="fab fa-linkedin-in text-2xl"></i>
         </a>
         <a
-          href=""
+          href="https://github.com/Ob1nash"
           target="_blank"
           rel="noopener noreferrer"
           className="transition-colors duration-300 hover:text-gray-600"
