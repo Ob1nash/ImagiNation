@@ -32,6 +32,4 @@ This project consists of two main parts:
 - bcrypt
 - dotenv
 - Cors
-- Razorpay SDK
-- Stripe SDK
 
